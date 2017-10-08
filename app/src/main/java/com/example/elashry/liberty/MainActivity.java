@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity  implements BaseSliderView.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         mDemoSlider = (SliderLayout) findViewById(R.id.slider);
 
 
