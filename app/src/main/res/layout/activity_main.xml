@@ -10,8 +10,9 @@
 
    <LinearLayout
        android:layout_marginTop="200dp"
-       android:layout_marginRight="10dp"
-       android:layout_marginLeft="10dp"
+       android:layout_marginRight="11dp"
+       android:layout_marginLeft="11dp"
+
 
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
@@ -35,7 +36,7 @@
    </LinearLayout>
 
     <LinearLayout
-        android:layout_margin="10dp"
+        android:layout_margin="11dp"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
