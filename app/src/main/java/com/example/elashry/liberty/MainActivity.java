@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity  implements BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener {
     private SliderLayout mDemoSlider;
-    ImageView heg;
+    ImageView heg,out,in;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity  implements BaseSliderView.O
         setContentView(R.layout.activity_main);
 
         heg= (ImageView) findViewById(R.id.imgheg);
+        out= (ImageView) findViewById(R.id.imgout);
+        in= (ImageView) findViewById(R.id.imgin);
+
+
 
 
 
@@ -34,6 +38,25 @@ public class MainActivity extends AppCompatActivity  implements BaseSliderView.O
                 startActivity(i);
             }
         });
+
+        out.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(MainActivity.this,Out.class);
+                startActivity(i);
+            }
+        });
+
+        in.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(MainActivity.this,In.class);
+                startActivity(i);
+            }
+        });
+
+
+
 
         mDemoSlider = (SliderLayout) findViewById(R.id.slider);
 
