@@ -37,6 +37,7 @@
            android:layout_marginLeft="20dp"
            android:layout_height="wrap_content"
            android:src="@drawable/haj"
+           android:id="@+id/imgheg"
            android:layout_weight="1"
 
            />

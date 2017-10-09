@@ -1,7 +1,10 @@
 package com.example.elashry.liberty;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.daimajia.slider.library.Animations.DescriptionAnimation;
 import com.daimajia.slider.library.SliderLayout;
@@ -13,13 +16,24 @@ import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity  implements BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener {
     private SliderLayout mDemoSlider;
+    ImageView heg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        heg= (ImageView) findViewById(R.id.imgheg);
 
+
+
+        heg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(MainActivity.this,Heg.class);
+                startActivity(i);
+            }
+        });
 
         mDemoSlider = (SliderLayout) findViewById(R.id.slider);
 

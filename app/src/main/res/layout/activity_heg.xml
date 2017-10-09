@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.elashry.liberty.Heg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:src="@drawable/tourist"/>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:gravity="right|center"
+        android:padding="10dip"
+        android:layout_margin="10dp"
+        android:text="  فنادق قريبه من الحرمين"
+        android:textColor="#966320"
+        android:drawableRight="@mipmap/ic_place"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:gravity="right|center"
+        android:padding="10dip"
+        android:layout_margin="10dp"
+        android:text="  باصات حديثه مكيفه "
+        android:textColor="#966320"
+        android:drawableRight="@mipmap/ic_bus"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:gravity="right|center"
+        android:padding="10dip"
+        android:layout_margin="10dp"
+        android:text="  مشرف مرافق ذو خبره عالية"
+        android:textColor="#966320"
+        android:drawableRight="@mipmap/ic_person"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:gravity="right|center"
+        android:padding="10dip"
+        android:layout_margin="10dp"
+        android:text="  هدايا عينيه لكل معتمر"
+        android:textColor="#966320"
+        android:drawableRight="@mipmap/ic_gift"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:gravity="right|center"
+        android:padding="10dip"
+        android:layout_margin="10dp"
+        android:text="  مزارات مكه والمدينه"
+        android:textColor="#966320"
+        android:drawableRight="@mipmap/ic_place"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:padding="15dip"
+        android:layout_margin="10dp"
+        android:text="  الاوراق المطلوبه"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:gravity="right|center"
+        android:padding="10dip"
+        android:layout_margin="5dp"
+        android:text=" 1- جواز سفر مميكن صالح لمدة عام"
+        android:textColor="#966320"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:gravity="right|center"
+        android:padding="10dip"
+        android:layout_margin="5dp"
+        android:text=" 2- شهاده صحيه مرفق فيها ايصال السداد"
+        android:textColor="#966320"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button1"
+    android:gravity="right|center"
+    android:padding="10dip"
+    android:layout_margin="5dp"
+    android:text=" 3-  3 صور خلفيه بيضاء 4*6 "
+    android:textColor="#966320"
+    android:textSize="20dp"
+    android:textStyle="italic" />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button1"
+    android:gravity="right|center"
+    android:padding="10dip"
+    android:layout_margin="5dp"
+    android:text=" 4- النساء اقل من 45 عام لابد من ودجود محرم توثيق صلة القرابه فى الشهر العقارى "
+    android:textColor="#966320"
+    android:textSize="20dp"
+    android:textStyle="italic" />
+
+</LinearLayout>
+</ScrollView>
