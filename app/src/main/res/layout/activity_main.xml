@@ -10,7 +10,7 @@
     android:layout_height="100dp"
     android:background="@drawable/image_2"
     android:orientation="vertical"
-    tools:context="com.example.elashry.liberty.MainActivity">
+    tools:context="com.example.elashry.liberty.Activites.MainActivity">
 
     <com.daimajia.slider.library.SliderLayout
         android:id="@+id/slider"

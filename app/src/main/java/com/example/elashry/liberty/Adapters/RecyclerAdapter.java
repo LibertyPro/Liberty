@@ -1,6 +1,5 @@
-package com.example.elashry.liberty;
+package com.example.elashry.liberty.Adapters;
 
-import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
@@ -14,9 +13,8 @@ import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.graphics.Typeface;
 
-import java.io.ObjectInputStream;
+import com.example.elashry.liberty.R;
 
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.RecyclerViewHolder> {
@@ -29,15 +27,14 @@ private static Context mContext;
 
 
 
-    public RecyclerAdapter(Context mContext, String[]filmsNames, String[]filmsRate,int[]filmsImg) {
+  public RecyclerAdapter(Context mContext, String[]filmsNames, String[]filmsRate,int[]filmsImg) {
         NUM_OF_ITEMS = filmsNames.length;
         this.filmsNames = filmsNames;
         this.filmsRate= filmsRate;
         this.filmsImg= filmsImg;
-
         this.mContext = mContext;
 
-    }
+   }
 
     @Override
     public RecyclerViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -85,8 +82,6 @@ private static Context mContext;
     }
 
     public class RecyclerViewHolder extends RecyclerView.ViewHolder{
-
-
         Typeface t1;
         TextView itemMovieName,itemMovieRate;
         ImageView itemMovieImage;
@@ -106,11 +101,7 @@ private static Context mContext;
           //  itemMovieRate.setText(filmsRate[itemPosition]);
             itemMovieName.setText(filmsNames[itemPosition]);
 
-
-
-
             itemMovieImage.setImageResource(filmsImg[itemPosition]);
-
 
         }
 

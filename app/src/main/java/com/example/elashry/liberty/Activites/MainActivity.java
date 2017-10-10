@@ -1,4 +1,4 @@
-package com.example.elashry.liberty;
+package com.example.elashry.liberty.Activites;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +11,7 @@ import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
+import com.example.elashry.liberty.R;
 
 import java.util.HashMap;
 

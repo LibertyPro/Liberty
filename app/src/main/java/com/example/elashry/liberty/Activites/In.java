@@ -1,9 +1,12 @@
-package com.example.elashry.liberty;
+package com.example.elashry.liberty.Activites;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+import com.example.elashry.liberty.R;
+import com.example.elashry.liberty.Adapters.RecyclerAdapter;
 
 public class In extends AppCompatActivity {
     String [] filmsNames = {"شرم الشيخ","الغردقه","العين السخنه"};

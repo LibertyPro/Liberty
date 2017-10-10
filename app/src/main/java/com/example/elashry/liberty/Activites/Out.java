@@ -1,11 +1,14 @@
-package com.example.elashry.liberty;
+package com.example.elashry.liberty.Activites;
 
-import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+import com.example.elashry.liberty.R;
+import com.example.elashry.liberty.Adapters.RecyclerAdapter;
+
 public class Out extends AppCompatActivity {
 
     String [] filmsNames = {"دبي","ماليزيا","الصين","تركيا","تايلندا"};

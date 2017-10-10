@@ -17,17 +17,17 @@
 
         android:largeHeap="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activites.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Heg" />
-        <activity android:name=".Out" />
-        <activity android:name=".In"></activity>
-        <activity android:name=".RecyclerAdapter" />
+        <activity android:name=".Activites.Heg" />
+        <activity android:name=".Activites.Out" />
+        <activity android:name=".Activites.In"></activity>
+        <activity android:name=".Adapters.RecyclerAdapter" />
     </application>
 
 </manifest>
