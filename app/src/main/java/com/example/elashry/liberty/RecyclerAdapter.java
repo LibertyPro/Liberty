@@ -1,6 +1,8 @@
 package com.example.elashry.liberty;
 
+import android.app.Activity;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,12 +14,12 @@ import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.graphics.Typeface;
 
-/**
- * Created by ahmedelmoselhy on 7/30/2017.
- */
+import java.io.ObjectInputStream;
 
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.RecyclerViewHolder>{
+
+public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.RecyclerViewHolder> {
 
 private static int NUM_OF_ITEMS;
 private static String[]filmsNames;
@@ -85,6 +87,7 @@ private static Context mContext;
     public class RecyclerViewHolder extends RecyclerView.ViewHolder{
 
 
+        Typeface t1;
         TextView itemMovieName,itemMovieRate;
         ImageView itemMovieImage;
 
@@ -93,8 +96,10 @@ private static Context mContext;
 
             itemMovieImage = (ImageView) itemView.findViewById(R.id.item_movie_image);
             itemMovieName = (TextView) itemView.findViewById(R.id.item_movie_name);
-         //   itemMovieRate = (TextView) itemView.findViewById(R.id.item_movie_rate);
 
+         //   itemMovieRate = (TextView) itemView.findViewById(R.id.item_movie_rate);
+            itemMovieName.setTypeface(t1);
+          //  t1= Typeface.createFromAsset(getAssets(),"d.ttf");
         }
 
         public void bind(int itemPosition){

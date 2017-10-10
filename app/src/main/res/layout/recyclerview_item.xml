@@ -35,7 +35,7 @@
             android:textColor="@color/up"
             android:textStyle="italic"
             tools:ignore="HardcodedText"
-
+            android:fontFamily="sans-serif-condensed"
             tools:targetApi="jelly_bean" />
 
         <!--<TextView-->
